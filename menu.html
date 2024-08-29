@@ -13,10 +13,26 @@
             <header>
                 <div class="row">
                     <div class="col-md-4">
-                        Logotipo
+                        <img src="images/holly-burger-logo.jpg" alt="Holy burger logo" style="height: 100px; border-radius: 100%;">
                     </div>
                     <div class="col-md-6">
-                        Menú superior
+                      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="quienes.html">¿Quiénes somos?</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="sucursales.html">Sucursales</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
                     </div>
                     <div class="col-md-2">
                         Perfil
@@ -24,45 +40,40 @@
                 </div>
 
                 <div class="row">
-                    <div class="col">
-                        Imágen de encabezado
+                    <div class="col" style="width: 100vw;">
+                        <img src="images/header-resolution.jpg" alt="Banner" class="img-fluid" width="100%">
                     </div>
                 </div>
                 
             </header>
 
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <a class="navbar-brand" href="index.html">Inicio</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link active" aria-current="page" href="promociones.html">Promociones</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                        <a class="nav-link dropdown-toggle" href="menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Menu
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="menu.html">Hamburguesas</a></li>
+                          <li><a class="dropdown-item" href="ensaladas.html">Ensaladas</a></li>
+                          <li><a class="dropdown-item" href="bebidas.html">Bebidas</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="paquetes.html">Paquetes</a></li>
                         </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                       </li>
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <input class="form-control me-2" type="search" placeholder="Busca tu producto" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                   </div>
                 </div>
@@ -86,15 +97,38 @@
                         </div>
         
                         <div class="col-md-3">
-                            hamburguesa 1
+                          <div class="card" style="width: 18rem;">
+                            <img src="images/hamburguer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa de Res</h5>
+                              <p class="card-text">Carne de res choice, queso americano, aderezo de la casa, lechuga y cebollas caramelizadas.</p>
+                              <a href="#" class="btn btn-primary">Comer</a>
+                            </div>
+                          </div>
                         </div>
         
                         <div class="col-md-3">
-                            hamburguesa 2
+                            
+                          <div class="card" style="width: 18rem;">
+                            <img src="images/hamburguer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Hamburguesa de Pollo frito</h5>
+                              <p class="card-text">Piezas de pollo frito, queso americano y dos aderezos: Picante cremoso y Honey mustard.</p>
+                              <a href="#" class="btn btn-primary">Comer</a>
+                            </div>
+                          </div>
                         </div>
         
                         <div class="col-md-3">
-                            hamburguesa 3
+                            
+                          <div class="card" style="width: 18rem;">
+                            <img src="images/hamburguer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Holy Burger</h5>
+                              <p class="card-text">Carne de res choice, queso Monterey Jack frito con pan molido japonés "Panko" (パン), queso...</p>
+                              <a href="#" class="btn btn-primary">Comer</a>
+                            </div>
+                          </div>
                         </div>
                         
         
@@ -102,6 +136,7 @@
         
                         </div>
                     </div>
+                    <br>
 
                     <div class="row">
                         <div class="col-md-2">
@@ -109,15 +144,39 @@
                         </div>
         
                         <div class="col-md-3">
-                            hamburguesa 4
+                            
+                          <div class="card" style="width: 18rem;">
+                            <img src="images/hamburguer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Double</h5>
+                              <p class="card-text">Dos carnes de res choice, dos quesos americanos, pan brioche con mantequilla, aderezo de la casa y cebollas caramelizadas.</p>
+                              <a href="#" class="btn btn-primary">Comer</a>
+                            </div>
+                          </div>
                         </div>
         
                         <div class="col-md-3">
-                            hamburguesa 5
+                            
+                          <div class="card" style="width: 18rem;">
+                            <img src="images/hamburguer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">French Burger</h5>
+                              <p class="card-text">Carne de res choice, dos quesos americanos, papas fritas dentro de la hamburguesa, trozos de tocino y aderezo de la casa.</p>
+                              <a href="#" class="btn btn-primary">Comer</a>
+                            </div>
+                          </div>
                         </div>
         
                         <div class="col-md-3">
-                            hamburguesa 6
+                            
+                          <div class="card" style="width: 18rem;">
+                            <img src="images/hamburguer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Querubín</h5>
+                              <p class="card-text">Dos carnes de res choice, dos quesos Monterey Jack fritos con pan molido japonés "Panko" (パン), dos quesos americanos, trozos de...</p>
+                              <a href="#" class="btn btn-primary">Comer</a>
+                            </div>
+                          </div>
                         </div>
                         
         
